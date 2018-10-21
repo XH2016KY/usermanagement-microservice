@@ -1,7 +1,7 @@
 
 -- 用户管理服务数据库
 create database usermanager default character set=utf8mb4 collate utf8mb4_general_ci;
-
+use usermanager;
 -- 用户管理服务的数据表
 -- 用户表
 create table tb_user(
